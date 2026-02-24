@@ -1,0 +1,74 @@
+.SanctuaryBackground {
+	overflow: clip;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.SanctuaryBackground .fade {
+	mask-image: linear-gradient(to bottom, white, white, transparent);
+}
+
+.SanctuaryBackground .parallax {
+	position: absolute;
+	--depth: 0.5;
+	will-change: transform;
+	transform: translateY(calc(var(--scroll-y) * var(--depth)));
+	image-rendering: pixelated;
+	transition: transform 10ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.SanctuaryBackground .spire {
+	background-image: url(./spire.png);
+	background-size: 105px 760px;
+	min-width: 105px;
+	min-height: 760px;
+}
+
+.SanctuaryBackground .arches {
+	background-image: url(./arches.png);
+	background-size: 200px 269px;
+	min-height: 269px;
+	background-repeat: repeat-x;
+}
+
+.SanctuaryBackground .buttress {
+	background-image: url(./buttress.png);
+	background-size: 100px 620px;
+	min-width: 100px;
+	min-height: 620px;
+}
+
+.SanctuaryBackground .prophecygif {
+	background-image: url(./deltaprophecy-2.gif);
+	width: 512px;
+	height: 306px;
+	--depth: 0.65;
+	bottom: 900px;
+	right: calc(50vw - 256px);
+	opacity: 0.7;
+}
+
+.SanctuaryBackground .prophecy {
+	font-family: Prophecy;
+	position: absolute;
+	text-shadow: 0px 0px 10px #003c74aa;
+	opacity: 0.2;
+	z-index: -50;
+	animation: prophecy-bounce 5s ease-in-out infinite;
+}
+
+@keyframes prophecy-bounce {
+	0% {
+		padding-top: 0px;
+	}
+
+	50% {
+		padding-top: 20px;
+	}
+
+	100% {
+		padding-top: 0px;
+	}
+}
