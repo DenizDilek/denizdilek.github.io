@@ -103,7 +103,7 @@ export const Badges = () => {
                     </a>
                 </Flex>
                 <Badge src="https://such.blue/res/button.png" />
-                <Badge src={FUFU_BADGE} href="https://burakfufu.carrd.co/" />
+                <Badge src="https://88x31.nl/gifs/classicgaming.gif" href={null}/>
                 {/* Fun */}
                 <Badge src="/assets/img/88x31/kris-where-tf-are-we.png" href={null} />
                 <Badge src="/assets/img/88x31/tidalwave.gif" href={null} />
@@ -116,11 +116,11 @@ export const Badges = () => {
                 <Badge src="https://dimden.dev/services/images/88x31.gif" />
                 {/* Other Sites */}
 				<Badge src="https://yugoslavia.best/assets/blinchik.gif" />
-				<Badge src="https://ida.puwulsewave.gay/img/button/ida.gif" />
-				<Badge src="https://ida.puwulsewave.gay/img/button/lua.png" href="https://foxgirl.dev" />
+				<Badge src="https://seirdy.one/p/b/miku.2713284928.png" />
+				<Badge src="https://88x31.nl/gifs/scottgames.gif" href="https://fnafofficial.com/" />
                 <Badge src="https://aspyn.gay/88x31.gif" />
-                <Badge src="https://maia.crimew.gay/badges/maia.crimew.gay.png" />
-                <Badge src="https://ruby.gay/88x31/gif.gif" />
+                <Badge src="https://88x31.nl/gifs/j04q1x.png" href={null} />
+                <Badge src="https://gaze.systems/others/godot.gif" />
                 <Badge src="https://badges.easrng.net/easrng.gif" href="https://easrng.net" />
                 <Badge src="https://zptr.cc/88x31/webring/zeroptr.png" />
                 <iframe
