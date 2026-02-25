@@ -6,6 +6,7 @@ import ZBRUSH from "./zbrush.png";
 import UNITY from "./unity.gif";
 import TETO from "./teto.gif";
 import FLSTUDIO from "./flstudio.gif";
+import CLIP from "./clip.gif";
 import "./badges.css";
 
 export const ButtonsSection = () => {
@@ -68,13 +69,11 @@ export const Badges = () => {
                 <Badge src="https://gaze.systems/others/godot.gif" href="https://godotengine.org/" />
                 <Badge src="https://matdoes.dev/buttons/vscode.gif" href={null} />
                 <Badge src={FLSTUDIO} href={null} />
+                <Badge src={CLIP} href={null} />
             </BadgesRows>
             <BadgesDivider label="People I know" />
             <BadgesRows>
                 <Badge src="https://gaze.systems/88x31.gif" />
-                <Badge src="https://slonk.ing/img/88x31.webp" />
-                <Badge src="https://kayceecat.neocities.org/buttons/kayceecat.gif" />
-                <Badge src="https://wamwoowam.co.uk/88x31.png" />
                 <Badge src="https://uwx.github.io/uwx.png" />
                 <Flex
                     justify="center"
@@ -122,12 +121,12 @@ export const Badges = () => {
 				
 				<Badge src="https://seirdy.one/p/b/miku.2713284928.png" />
 				<Badge src="https://88x31.nl/gifs/scottgames.gif" href="https://fnafofficial.com/" />
-                <Badge src="https://aspyn.gay/88x31.gif" />
                 <Badge src="https://88x31.nl/gifs/j04q1x.png" href={null} />
                 <Badge src="https://badges.easrng.net/easrng.gif" href="https://easrng.net" />
                 <Badge src="https://zptr.cc/88x31/webring/zeroptr.png" />
+                <Badge src="https://badges.easrng.net/ooeeoo.png" href={null} />
                 <iframe
-                    src="https://incr.easrng.net/badge?key=deniz.blue"
+                    src="https://incr.easrng.net/badge?key=denizu.dev"
                     style={{ background: "url(https://incr.easrng.net/bg.gif)", border: "unset" }}
                     title="increment badge"
                     width="88"

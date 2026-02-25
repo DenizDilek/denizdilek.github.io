@@ -73,9 +73,9 @@ export const PamphletV2 = () => {
 								<ListeningToSection />
 							</Section>
 
-							<Section title="WEBRINGS">
+							{/* <Section title="WEBRINGS">
 								<CosplayWebring />
-							</Section>
+							</Section> */}
 
 							<Section title="BADGES">
 								<Badges />
