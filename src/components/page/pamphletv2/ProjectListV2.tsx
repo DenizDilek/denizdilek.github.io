@@ -1,6 +1,7 @@
 import { Stack,Flex } from "@mantine/core";
-import { ProjectButtonSection } from "./ProjectButtonSection";
+// import { ProjectButtonSection } from "./ProjectButtonSection";
 // import { projects } from "virtual:projects";
+import SweptByTheStorm from "/public/assets/img/cards/SweptByTheStorm.png"
 
 export const ProjectListV2 = () => {
 	return (
@@ -9,8 +10,8 @@ export const ProjectListV2 = () => {
                     justify="center"
                     align="end"
                     style={{
-                        width: 88,
-                        height: 55,
+                        width: 264,
+                        height: 31,
                         gridRow: "span 3",
 						backgroundColor: "var(--mantine-color-violet-light)",
                     }}
@@ -21,15 +22,22 @@ export const ProjectListV2 = () => {
 						aria-label="Swept By The Storm"
                         target="_blank"
                         style={{
-                            width: 88,
-                            height: 55,
+                            width: 264,
+                            height: 62,
                             display: "flex",
                             alignItems: "end",
                             justifyContent: "center",
                         }}
                     >
+                        <img
+                            src={SweptByTheStorm}
+							role="presentation"
+                            width={264}
+                            height={31}
+                            loading="lazy"
+                        />
                     </a>
-					<iframe src="https://itch.io/embed/4150252" width="270" height="55"></iframe>
+                    
                 </Flex>
 			
 			{/* {projects.list.filter(x => !x.tags?.includes("archived") && !x.tags?.includes("status:wip")).map(project => (
