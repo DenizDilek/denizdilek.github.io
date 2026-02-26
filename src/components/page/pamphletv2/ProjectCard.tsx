@@ -36,7 +36,7 @@ export const ProjectCard = ({
                         target="_blank"
                         style={{
                             width: 280,
-                            height: 62,
+                            height: 31,
                             display: "flex",       // Keeps the anchor sized correctly
                             position: "relative",  // 1. Creates a positioning context for children
                             alignItems: "end",
